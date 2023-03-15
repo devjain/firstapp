@@ -1,0 +1,22 @@
+.whatIdo{
+    background: #f6f6f6;
+}
+.about-single {
+    background:#fff;
+    padding: 40px;
+    border-radius:5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+.about-icon {
+    font-size: 40px;
+    color: #007e6a;
+}
+.about-content h5 a {
+    font-weight: 600;
+    color: #404044;
+    font-size: 22px;
+}
+.title-heading-w3 {
+    max-width: 700px;
+}
+

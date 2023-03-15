@@ -1,13 +1,166 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+html{
+  position: relative;
+  min-height: 100%;
+}
+body {
+  background: #fff;
+  font-size: 16px;
+  color:rgba(33,33,33,0.8);
+  font-family: 'Roboto', sans-serif;
+
+}
+input[type="text"],
+select,
+.ui-button {
+  outline: none !important;
+  -webkit-outline: none !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button,
+a {
+  outline: none !important;
+  -webkit-outline: none !important;
+  transition: 300ms ease 0s;
+  -webkit-transition: 300ms ease 0s;
+  -moz-transition: 300ms ease 0s;
+  -ms-transition: 300ms ease 0s;
+  -o-transition: 300ms ease 0s;
+}
+
+a {
+  font-size: 16px;
+  color: #755313;
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #087583;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  -webkit-outline: none !important;
+}
+
+.ui-slider-handle:focus,
+button,
+textarea {
+  outline: none;
+  -webkit-outline: none !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  color:rgba(33,33,33,0.8);
+  
+}
+p {
+  line-height: 23px;
+  color:rgba(33,33,33,0.8);
+  font-weight: 400;
+}
+
+section,
+footer,
+hader,
+nav {
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+  -webkit-outline: none;
+}
+.btn {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 30px;
+  position: relative;
+  border-radius: 50px;
+}
+.btn-primary {
+  background: #E7AB3C;
+  color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:focus{
+ background: #d69927;
+  color: #fff; 
+}
+.transparent-btn {
+  color: #fff;
+  border: 1px solid #dadada;
+  background: rgba(255, 255, 255, 0.15);
+}
+.transparent-btn:hover {
+  color:rgba(33,33,33,0.8);
+  background:#fff;
+  border: 1px solid #fff;
+}
+
+.zoomImg {
+  overflow: hidden;
+}
+
+.zoomImg img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  -moz-transition: -moz-transform .3s ease-in-out;
+  -ms-transition: -ms-transform .3s ease-in-out;
+  -o-transition: -o-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  width: 100%;
+}
+
+.zoomImg:hover img,
+.element-item:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.w3l-title-main, .w3l-title-main.two {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color:#404044;
 }

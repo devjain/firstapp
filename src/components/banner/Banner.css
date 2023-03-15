@@ -1,0 +1,35 @@
+/* .banner{
+    max-height:100vh;
+    overflow:hidden;
+} */
+.bannerInner{
+    position:relative;
+}
+.bannerInner::before{
+    content: "";
+    background: rgba(6,31,36,0.9);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.bannerContent {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    
+}
+.banner-info-grid h1{
+    font-size:60px;
+}
+.banner-info-grid h1, .banner-info-grid h3 {
+    color: #fff;
+    font-weight: 700;
+}
+.banner-info-grid p{
+    color:#fff;
+}

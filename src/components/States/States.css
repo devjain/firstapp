@@ -1,0 +1,18 @@
+.w3l-stats-section {
+    position: relative;
+}
+p.counter {
+    font-size: 46px;
+    font-weight: 700;
+    color:#404044;
+    margin: 0px 0 20px 0px;
+    display: block;
+}
+.stats_info h3 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #404044;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: capitalize;
+}

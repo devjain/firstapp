@@ -1,0 +1,14 @@
+.w3l-whychooseus {
+    background-color: #f6f6f6;
+}
+.w3l-whychooseus .grids_info svg{
+    font-size: 50px;
+    color: #007e6a;
+    margin-top: 0px;
+}
+.w3l-whychooseus .grids_info h4 {
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
