@@ -11,6 +11,10 @@
 .menu li a:hover{
     opacity:1;
 }
+.menu li a.active{
+    color:#E7AB3C;
+}
+
 .srch {
     background: transparent;
     border: none;

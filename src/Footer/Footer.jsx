@@ -6,33 +6,33 @@ import { FaBlenderPhone, FaEnvelope, FaMapMarker, FaFacebookF, FaTwitter, FaGoog
 const Footer = () => {
   return (
     <>
-        <footer class="footer text-center">
+        <footer className="footer text-center">
 
-        <div class="footer py-5">
-            <div class="container py-md-4 UiportfolioFooter">
+        <div className="footer py-5">
+            <div className="container py-md-4 UiportfolioFooter">
 
                 <div clss="footer-logo">
                     <a href="#" className='logo'><AiFillBank/> UI Portfolio</a>
                 </div>
                 
-                <div class="footer-contact-info mt-4">
+                <div className="footer-contact-info mt-4">
 
                     <ul>
 
                         <li>
-                            <a href="tel:+12 345 678 900" class="contact-text-sub">
+                            <a href="tel:+12 345 678 900" className="contact-text-sub">
                                <FaBlenderPhone /> +12 345 678 900                        
                             </a>
                         </li>
                         
                         <li>
-                            <a href="mailto:info@example.com" class="contact-text-sub">
+                            <a href="mailto:info@example.com" className="contact-text-sub">
                                 <FaEnvelope /> info@example.com 
                             </a>
                         </li>
                         
                         <li>
-                            <p class="contact-text-sub"> 
+                            <p className="contact-text-sub"> 
                                <FaMapMarker /> 208 Avenue street, UK - 62617.</p>
                         </li>
                         
@@ -43,20 +43,20 @@ const Footer = () => {
             </div>
         </div>
 
-        <div class="container py-4">
-            <div class="row footer-grids">
+        <div className="container py-4">
+            <div className="row footer-grids">
 
         
                                         
-                    <div class="col-lg-6 copyright text-lg-start text-center align-center">
-                        <p class="CopyRights">© 2023 UI Portfolio. All Rights Reserved 
+                    <div className="col-lg-6 copyright text-lg-start text-center align-center">
+                        <p className="CopyRights">© 2023 UI Portfolio. All Rights Reserved 
                         </p>
                     </div>
                         
 
 
-                    <div class="col-lg-6 text-lg-end text-center mt-lg-0 mt-4 FooterSocial">
-                    <div class="social">
+                    <div className="col-lg-6 text-lg-end text-center mt-lg-0 mt-4 FooterSocial">
+                    <div className="social">
                         <ul>
 
                                                                             

@@ -2,19 +2,28 @@ import './App.css';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Home from './Home/Home';
-// import {BrowserRouter as Router,Routes,Route} from 'reac-router-dom';
+import About from './About/About';
+import Services from './Services/Services';
+import Contact from './Contact/Contact';
+import Error from './Error/Error';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
 function App() {
   return (
     <>
-      <Header />
-      <Home />
-      <Footer />
-
-      {/* <Router>
+      
+      {/* <Home /> */}
+      
+      <BrowserRouter>
+          <Header />
           <Routes>
-            <Route path="/" />
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="services" element={<Services />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={ <Error /> } />
           </Routes>
-      </Router> */}
+      </BrowserRouter>
+      <Footer />
     </>
   );
 }
