@@ -17,11 +17,28 @@
 }
 .bannerContent {
     position: absolute;
-    bottom:0;
+    
     left: 0;
     width: 100%;
     z-index: 10;
     
+}
+.bannerContent.center {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    text-align: center;
+}
+.bannerContent.center .col-5{
+    display: none;
+}
+.bannerContent.center .col-lg-7 {
+    flex: 1;
+    width: 100%;
+}
+
+.bannerContent.left{
+    bottom:0;
 }
 .banner-info-grid h1{
     font-size:60px;
@@ -33,3 +50,6 @@
 .banner-info-grid p{
     color:#fff;
 }
+
+
+

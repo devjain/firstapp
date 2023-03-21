@@ -164,3 +164,34 @@ input:focus {
   text-transform: capitalize;
   color:#404044;
 }
+
+
+
+.w3l-title-small {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 28px;
+  color: var(--font-color);
+  position: relative;
+  letter-spacing: 1px;
+}
+.progress-info {
+  margin-bottom: 30px;
+  text-align: left;
+}
+h6.progress-tittle {
+  font-size: 18px;
+  color:#707070;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.progress {
+  display: flex;
+  height: 0.5em;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #f6f6f6;
+  border-radius: 0.25rem;
+}
